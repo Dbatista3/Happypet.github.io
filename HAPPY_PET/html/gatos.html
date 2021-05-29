@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gatos</title>
+    <link rel="preload" href="/css/estilos.css" as="style">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preload" href="/css/gatos.css" as="style">
+    <link rel="stylesheet" href="/css/gatos.css">
+  </head>
+  <body>
+    <header class="inicio">
+        <img src="/img/hamburguesa.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="/">Home</a>
+            <a href="/html/nosotros.html">Nosotros</a>
+            <a href="/html/servicios.html" target="_blank">Servicios</a>
+            <a href="/html/contacto.html">Contacto</a>
+            <a href="/html/perros.html">Perros</a>
+            <a href="/html/gatos.html">Gatos</a>
+            <a href="/html/mas.html">Más</a>
+        </nav>
+    </header>
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <div class="slide first">
+          <img src="/img/gato1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="/img/gato2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="/img/gato3.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="/img/gato4.jpg" alt="">
+        </div>
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        </div>
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
+    <script src="/js/slider.js"></script>
+    <script src="/js/menu.js"></script>
+</body>
+</html>
